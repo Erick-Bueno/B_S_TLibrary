@@ -1,5 +1,5 @@
 # B_S_TLibrary
- 
+ biblioteca: https://www.nuget.org/packages/B_S_TLibrary/
 # Árvore de Busca Binária (Versão 1.1)
 
 Esta é a Versão 1.1 da Biblioteca de Árvore de Busca Binária em C# desenvolvida por Erick Bueno.
