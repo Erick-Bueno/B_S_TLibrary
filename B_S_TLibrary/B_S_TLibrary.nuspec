@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <!-- Informações gerais do pacote -->
+    <id>B_S_TLibrary</id>
+    <version>1.0.0</version>
+    <authors>Erickbueno</authors>
+    <owners>Erickbueno</owners>
+    <description>Biblioteca de uso relacionado a árvores binárias de busca</description>
+  </metadata>
+</package>
