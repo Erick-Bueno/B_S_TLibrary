@@ -26,7 +26,7 @@ class Program
 {
     static void Main()
     {
-        BinarySearchTree<int> tree = new BinarySearchTree(1);
+        BinarySearchTree<int> tree = new BinarySearchTree<int>(1);
         tree.Insert(10);
         tree.Insert(5);
         tree.Insert(15);
