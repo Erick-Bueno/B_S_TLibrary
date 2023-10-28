@@ -1,26 +1,26 @@
 ﻿namespace B_S_TLibrary;
+//welcome
 //tree structure
-
-public class BinarySearchTree
+public class BinarySearchTree<T> where T: IComparable<T>
 {
-    public int NodeValue { get; set; }
+    public T NodeValue { get; set; }
     //binary trees have nodes with at most two children
-    private BinarySearchTree leftNode { get; set; }
-    private BinarySearchTree rightNode { get; set; }
+    private BinarySearchTree<T> leftNode { get; set; }
+    private BinarySearchTree<T> rightNode { get; set; }
 
-    public BinarySearchTree(int NodeValue)
+    public BinarySearchTree(T NodeValue)
     {
         this.NodeValue = NodeValue;
         leftNode = null;
         rightNode = null;
     }
-    public void Insert(int value)
+    public void Insert(T value)
     {
-        if (value < NodeValue)
+        if (value.CompareTo(NodeValue) < 0)
         {
             if (leftNode == null)
             {
-                leftNode = new BinarySearchTree(value);
+                leftNode = new BinarySearchTree<T>(value);
                 return;
             }
             leftNode.Insert(value);
@@ -29,7 +29,7 @@ public class BinarySearchTree
 
         if (rightNode == null)
         {
-            rightNode = new BinarySearchTree(value);
+            rightNode = new BinarySearchTree<T>(value);
             return;
         }
 
@@ -38,13 +38,13 @@ public class BinarySearchTree
 
 
     }
-    public BinarySearchTree find(int value)
+    public BinarySearchTree<T> find(T value)
     {
-        if (value == NodeValue)
+        if (value.Equals(NodeValue))
         {
             return this;
         }
-        if (value < NodeValue)
+        if (value.CompareTo(NodeValue) < 0 )
         {
             if (leftNode != null)
             {

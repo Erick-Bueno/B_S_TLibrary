@@ -3,7 +3,7 @@
   <metadata>
     <!-- Informações gerais do pacote -->
     <id>B_S_TLibrary</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <authors>Erickbueno</authors>
     <owners>Erickbueno</owners>
     <description>Biblioteca de uso relacionado a árvores binárias de busca</description>

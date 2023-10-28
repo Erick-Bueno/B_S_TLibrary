@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>B_S_TLibrary</id>
+    <version>1.1.0</version>
+    <authors>B_S_TLibrary</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\erick\Documents\Linguas-20220714T235342Z-001\Linguas\C#\MyNugetPackages\B_S_TLibrary\bin\Debug\net6.0\B_S_TLibrary.dll" target="lib\net6.0\B_S_TLibrary.dll" />
+  </files>
+</package>

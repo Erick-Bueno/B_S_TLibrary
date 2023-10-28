@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "B_S_TLibrary/1.0.0": {
+      "B_S_TLibrary/1.1.0": {
         "runtime": {
           "B_S_TLibrary.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "B_S_TLibrary/1.0.0": {
+    "B_S_TLibrary/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
