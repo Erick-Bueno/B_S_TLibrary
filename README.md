@@ -31,14 +31,12 @@ class Program
         tree.Insert(5);
         tree.Insert(15);
 
-        int searchValue = 5;
-        if (tree.Find(searchValue))
-        {
-            Console.WriteLine($"{searchValue} encontrado na árvore.");
-        }
-        else
-        {
-            Console.WriteLine($"{searchValue} não encontrado na árvore.");
-        }
+       int searchValue = 1;
+       if(arvore.find(searchValue) == null)
+       {
+            Console.WriteLine($"Valor {searchValue} não foi encontrado");
+            return;
+       }
+       Console.WriteLine($"Valor {searchValue} foi encontrado");
     }
 }
